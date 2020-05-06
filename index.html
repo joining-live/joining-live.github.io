@@ -12,23 +12,77 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
 
-
-
     <title>joining.live</title>
+
+    <style>
+      .blinking {
+        -webkit-animation: 1s blink ease infinite;
+        -moz-animation: 1s blink ease infinite;
+        -ms-animation: 1s blink ease infinite;
+        -o-animation: 1s blink ease infinite;
+        animation: 1s blink ease infinite;
+        
+      }
+
+      @keyframes "blink" {
+        from, to {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @-moz-keyframes blink {
+        from, to {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @-webkit-keyframes "blink" {
+        from, to {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @-ms-keyframes "blink" {
+        from, to {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
+      @-o-keyframes "blink" {
+        from, to {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+    </style>
   </head>
 
   <body>
 
+<!--
 
     <div style="font-family: 'Mukta', sans-serif; color: #1565C0; text-align: center; font-size: 36px; margin-top: 200px">
-      joining<span style="color: #D32F2F">.</span><span style="color: #78909C">live</span>
-    </div>
-        
-<!--
-    <div style="font-family: 'Mukta', sans-serif; color: #2980b9; text-align: center; font-size: 36px; margin-top: 200px">
-      joining<span style="color: #D32F2F">.</span>live
+      joining<span class="blinking" style="color: #D32F2F">.</span><span style="color: #78909C">live</span>
     </div>
 -->
+   
+    <div style="font-family: 'Mukta', sans-serif; color: #1565C0; text-align: center; font-size: 36px; margin-top: 200px">
+      joining<span class="blinking" style="color: #D32F2F">.</span>live
+    </div>
 
     <div style="margin-top: 20px; font-family: Roboto; text-align: center; font-size: 16px; color: #666;">
       coming soon
